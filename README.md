@@ -36,4 +36,5 @@ Comisión aplicada: $50
 # Division de responsabilidades: 
 
 Matias Perez(Integrante 1): Crea el repositorio, inicia las clases y metodos en su rama "Matias", hace commit, merge y pushea.
-Emanuel Aguero(Integrante 2): Clona el repositorio, termina el program y testea el proyecto en su rama "Ema", hace commit, merge y pushea.
+
+Emanuel Aguero(Integrante 2):Completa README. Clona el repositorio, termina el program y testea el proyecto en su rama "Ema", hace commit, merge y pushea.
