@@ -5,15 +5,15 @@ public abstract class Pagos
 
     private Cliente cliente;
 
-    private string idTransaccion;
+    private int idTransaccion;
 
     public int Monto {get{return this.monto;}set{ this.monto = value;}}
 
     public Cliente Cliente {get{return this.cliente;}set{ this.cliente = value;}}
 
-    public string IdTransaccion{get{return this.idTransaccion;}set{ this.idTransaccion = value;}}
+    public int IdTransaccion{get{return this.idTransaccion;}set{ this.idTransaccion = value;}}
 
-    public Pagos (int monto, Cliente cliente, string idTransaccion)
+    public Pagos (int monto, Cliente cliente, int idTransaccion)
     {
         this.monto = monto;
         this.cliente = cliente;

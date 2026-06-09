@@ -26,5 +26,8 @@ public class Cliente
 
     }
 
-    
+    public void InformacionUsuario()
+    {
+        System.Console.WriteLine("");
+    }
 }

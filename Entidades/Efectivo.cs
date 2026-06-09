@@ -9,7 +9,7 @@ public class Efectivo : Pagos
 
     public int Vuelto{get{return this.vuelto;}set{this.vuelto = value;}}
 
-    public Efectivo(int monto, Cliente cliente, string idTransaccion,int pagoEfectivo) : base (monto, cliente, idTransaccion)
+    public Efectivo(int monto, Cliente cliente, int idTransaccion,int pagoEfectivo) : base (monto, cliente, idTransaccion)
     {
         this.pagoEfectivo = pagoEfectivo;
          
@@ -28,6 +28,7 @@ public class Efectivo : Pagos
         if(this.pagoEfectivo < this.Monto)
         {
             System.Console.WriteLine("Pago en efectivo insuficiente!!");
+            System.Console.WriteLine("===========================");
             
             
         }else
@@ -36,6 +37,7 @@ public class Efectivo : Pagos
             System.Console.WriteLine($"Monto: {this.Monto}");
             System.Console.WriteLine($"Efectivo: {this.pagoEfectivo}");
             System.Console.WriteLine($"Vuelto: {CalculoDePago()}");
+            System.Console.WriteLine("===========================");
 
         }
 
