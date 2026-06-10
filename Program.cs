@@ -42,7 +42,9 @@ class Program
                 Efectivo efectivo = new Efectivo(monto, cliente, idEfectivo, pago);
                 
                 efectivo.MostrarInfo();
+                cliente.InformacionUsuario();
                 break;
+
             case 2:
                 System.Console.WriteLine("Seleccione: ");
                 System.Console.WriteLine("1. Debito");
@@ -58,13 +60,16 @@ class Program
                         Tarjeta debito = new Tarjeta(monto, cliente, idDebito, "Debito", 10);
 
                         debito.MostrarInfo();
+                        cliente.InformacionUsuario();
                         break;
+
                     case 2:
                         int idCredito = rnd.Next(9999, 99999);
 
                         Tarjeta credito = new Tarjeta(monto, cliente, idCredito, "Credito", 20);
                         
                         credito.MostrarInfo();
+                        cliente.InformacionUsuario();
                         break;
                 }
                 break;

@@ -28,6 +28,11 @@ public class Cliente
 
     public void InformacionUsuario()
     {
-        System.Console.WriteLine("");
+        System.Console.WriteLine("=== INFORMACION DEL USUARIO ===");
+        System.Console.WriteLine($"Nombre:{this.nombre}");
+        System.Console.WriteLine($"Apellido: {this.apellido}");
+        System.Console.WriteLine($"DNI: {this.dni}");
+        System.Console.WriteLine($"Correo: {this.correo}");
+        
     }
 }
